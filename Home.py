@@ -64,7 +64,7 @@ col3, empty_col, col4 = st.columns([1.5,0.5,1.5])
 df = pd.read_csv("data.csv", sep=";")
 
 for index, row in df.iterrows():
-    image_path = "images/" + row["image"]
+    image_path = "images/" + str(row["image"])
     if index < len(df) / 2:
         with col3:
             st.header(row["title"])
