@@ -23,7 +23,7 @@ with col2:
         """
         <style>
         .info-text {
-            font-size: 30px;
+            font-size: 20px;
             background-color: #6897bb;
             padding: 10px;
             border-radius: 5px;
@@ -36,7 +36,7 @@ with col2:
     st.markdown(f'<div class="info-text">{content}</div>', unsafe_allow_html=True)
 
 content2 = """
-        Below you can find some Python projects Built by me.
+        Below you can find Python as well as C++ projects Built by me.
         Feel free to contact me!
 """
 st.markdown(
